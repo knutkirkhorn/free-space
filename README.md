@@ -3,12 +3,12 @@
 
 ## Installation
 ```
-$ npm install free-space
+$ npm install @knutkirkhorn/free-space
 ```
 
 ## Usage
 ```js
-const freeSpace = require('free-space');
+const freeSpace = require('@knutkirkhorn/free-space');
 const prettyBytes = require('pretty-bytes');
 
 freeSpace().then(bytes => {

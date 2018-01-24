@@ -1,5 +1,5 @@
 {
-  "name": "free-space",
+  "name": "@knutkirkhorn/free-space",
   "version": "1.0.0",
   "description": "Get the amount of free space for a drive",
   "main": "index.js",
