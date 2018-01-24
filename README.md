@@ -13,10 +13,12 @@ const prettyBytes = require('pretty-bytes');
 
 freeSpace().then(bytes => {
     console.log('Free space: ' + prettyBytes(bytes));
+    // => Free space: 39.6 GB
 });
 
 freeSpace('c').then(bytes => {
     console.log('Free space: ' + prettyBytes(bytes));
+    // => Free space: 39.6 GB
 });
 ```
 
