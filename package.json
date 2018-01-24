@@ -1,0 +1,25 @@
+{
+  "name": "free-space",
+  "version": "1.0.0",
+  "description": "Get the amount of free space for a drive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knutakir/free-space.git"
+  },
+  "keywords": [
+    "free",
+    "space",
+    "free-space",
+    "drive"
+  ],
+  "author": "Knut Kirkhorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Knutakir/free-space/issues"
+  },
+  "homepage": "https://github.com/Knutakir/free-space#readme"
+}
