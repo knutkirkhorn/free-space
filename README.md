@@ -26,8 +26,8 @@ freeSpace('c').then(bytes => {
 ### freeSpace()
 Returns the amount of free space for the default drive.
 
-### freeSpace(disk)
-Returns the amount of free space for a specified drive.
+### freeSpace(drive)
+Returns the amount of free space for a specified `drive`.
 
 ## License
 MIT © [Knut Kirkhorn](LICENSE)
