@@ -1,22 +1,26 @@
 'use strict';
 const windows = require('./lib/windows.js');
+const unix = require('./lib/unix.js');
 
 module.exports = disk => {
     if (disk === undefined) {
-        //TODO: get the default disk
-        //temporary set it to c: as it is common for windows drive
-        disk = 'c';
+        if (process.platform === 'win32') {
+            //TODO: get the default disk
+            //temporary set it to c: as it is common for windows drive
+            disk = 'c';
+        } else {
+            disk = '';
+        }   
     }
 
-    switch (process.platform) {
-        case 'win32':
-            return windows(disk);
-            break;
-        case 'darwin':
-            throw new Error('Not implemented');
-            break;
-        case 'linux':
-            throw new Error('Not implemented');
-            break;
+    if (typeof disk !== 'string') {
+        throw new Error('Invalid input');
+        return;
+    }
+
+    if (process.platform === 'win32') {
+        return windows(disk);
+    } else {
+        return unix(disk);
     }
 };
