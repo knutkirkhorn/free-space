@@ -29,5 +29,8 @@ Returns the amount of free space for the default drive.
 ### freeSpace(drive)
 Returns the amount of free space for a specified `drive`.
 
+## Related
+- [system-disk](https://github.com/Knutakir/system-disk) - Get the system disk of the computer (e.g. `C:` or `/dev/sda`) 
+
 ## License
 MIT © [Knut Kirkhorn](LICENSE)
