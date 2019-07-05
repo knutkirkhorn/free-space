@@ -1,25 +1,28 @@
 import test from 'ava';
-import m from '.';
+import freeSpace from '.';
 
-test('return a value', t => {
-    return m().then(bytes => {
+test('return a value', async t => {
+    try {
+        await freeSpace();
         t.pass();
-    }).catch(() => {
-        t.fail();  
-    });
+    } catch (error) {
+        t.fail();
+    }
 });
 
-test('return a number', t => {
-    return m().then(bytes => {
+test('return a number', async t => {
+    try {
+        const bytes = await freeSpace();
         t.is(typeof bytes, 'number');
-    }).catch(() => {
-        t.fail();  
-    });
+    } catch (error) {
+        t.is(error, 'asd')
+        t.fail();
+    }
 });
 
 test('wrong input', t => {
     const error = t.throws(() => {
-        m([true, false])   
+        freeSpace([true, false]);
     }, Error);
     t.is(error.message, 'Invalid input');
 });
