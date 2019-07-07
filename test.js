@@ -15,7 +15,6 @@ test('return a number', async t => {
         const bytes = await freeSpace();
         t.is(typeof bytes, 'number');
     } catch (error) {
-        t.is(error, 'asd')
         t.fail();
     }
 });
