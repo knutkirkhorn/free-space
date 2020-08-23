@@ -23,5 +23,5 @@ test('wrong input', t => {
     const error = t.throws(() => {
         freeSpace([true, false]);
     }, {instanceOf: Error});
-    t.is(error.message, 'Invalid input');
+    t.is(error.message, 'Input disk should be of type `string`');
 });
