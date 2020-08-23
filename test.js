@@ -1,5 +1,5 @@
-import test from 'ava';
-import freeSpace from '.';
+const test = require('ava');
+const freeSpace = require('.');
 
 test('return a value', async t => {
     try {
@@ -22,6 +22,6 @@ test('return a number', async t => {
 test('wrong input', t => {
     const error = t.throws(() => {
         freeSpace([true, false]);
-    }, Error);
+    }, {instanceOf: Error});
     t.is(error.message, 'Invalid input');
 });

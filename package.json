@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Knutakir/free-space#readme",
   "devDependencies": {
-    "ava": "^0.24.0"
+    "ava": "^3.11.1"
   },
   "dependencies": {
     "system-disk": "^1.1.1"
