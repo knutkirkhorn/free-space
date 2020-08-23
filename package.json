@@ -4,7 +4,8 @@
   "description": "Get the amount of free space for a drive",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
