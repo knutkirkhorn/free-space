@@ -1,4 +1,4 @@
-# free-space [![Build Status](https://travis-ci.org/Knutakir/free-space.svg?branch=master)](https://travis-ci.org/Knutakir/free-space)
+# free-space [![Build Status](https://travis-ci.org/Knutakir/free-space.svg?branch=main)](https://travis-ci.org/Knutakir/free-space)
 > Get the amount of free space for a drive
 
 ## Installation
