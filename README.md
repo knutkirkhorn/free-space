@@ -1,4 +1,4 @@
-# free-space [![Build Status](https://travis-ci.org/Knutakir/free-space.svg?branch=main)](https://travis-ci.org/Knutakir/free-space)
+# free-space [![Build Status](https://travis-ci.org/knutkirkhorn/free-space.svg?branch=main)](https://travis-ci.org/knutkirkhorn/free-space)
 > Get the amount of free space for a drive
 
 ## Installation
@@ -30,8 +30,8 @@ Returns the amount of free space for the default drive.
 Returns the amount of free space for a specified `drive`.
 
 ## Related
-- [system-disk](https://github.com/Knutakir/system-disk) - Get the system disk of the computer (e.g. `C:` or `/dev/sda`)
-- [@knutkirkhorn/free-space-cli](https://github.com/Knutakir/free-space-cli) - CLI for this module
+- [system-disk](https://github.com/knutkirkhorn/system-disk) - Get the system disk of the computer (e.g. `C:` or `/dev/sda`)
+- [@knutkirkhorn/free-space-cli](https://github.com/knutkirkhorn/free-space-cli) - CLI for this module
 
 ## License
 MIT © [Knut Kirkhorn](LICENSE)
