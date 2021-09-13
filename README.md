@@ -1,4 +1,4 @@
-# free-space [![Build Status](https://travis-ci.org/knutkirkhorn/free-space.svg?branch=main)](https://travis-ci.org/knutkirkhorn/free-space)
+# free-space
 > Get the amount of free space for a drive
 
 ## Installation
