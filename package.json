@@ -7,6 +7,10 @@
     "test": "ava",
     "lint": "eslint ."
   },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/knutkirkhorn/free-space.git"
